@@ -54,7 +54,6 @@ public class Produto {
         if (o == null || getClass() != o.getClass()) return false;
 
         Produto produto = (Produto) o;
-
         return id.equals(produto.id);
     }
 
